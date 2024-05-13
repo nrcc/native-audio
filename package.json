@@ -1,6 +1,6 @@
 {
-  "name": "@nrcc/native-audio",
-  "version": "6.0.0",
+  "name": "native-audio-nrcc",
+  "version": "6.0.1",
   "description": "A native plugin for native audio engine",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",

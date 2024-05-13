@@ -433,7 +433,7 @@ public class NativeAudio extends Plugin implements AudioManager.OnAudioFocusChan
                 status.put("STATUS", "OK");
                 call.resolve(status);
             } else {
-                call.reject(ERROR_AUDIO_EXISTS);
+               // call.reject(ERROR_AUDIO_EXISTS);
             }
         } catch (Exception ex) {
             call.reject(ex.getMessage());
